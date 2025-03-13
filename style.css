@@ -1,0 +1,91 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    height: 100vh;
+    background-color:#222222;
+    color: rgb(236, 236, 236);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.colors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+   
+}
+.colors .box{
+    margin: 3px;
+    border: 2px solid #222222;
+    height: 130px;
+    width: 130px;
+
+}
+.red{
+    background-color:#ff3366;
+    border-radius: 10px;
+    border-top-left-radius:90%;
+   
+}
+.green{
+    background-color: #00ff99;
+    border-radius: 10px;
+    border-top-right-radius:90%;
+
+}
+.yellow{
+    background-color:#ffcc00;
+    border-radius: 10px;
+    border-bottom-left-radius: 90%;
+}
+.blue{
+    background-color:#00aaff;
+    border-radius: 10px;
+    border-bottom-right-radius: 90%;
+}
+.circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 2;
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    font-size: 200%; 
+     font-weight: 600;
+
+}
+.line1{
+    display: flex;
+}
+.line2{
+    display: flex;
+}
+
+
+#start-btn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: whitesmoke; /* Blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.flash{
+    border-color:#ff99cc;
+    box-shadow: 0 0 20px #ff99cc;
+}
